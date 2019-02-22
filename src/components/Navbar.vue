@@ -12,7 +12,7 @@
 <v-icon right>exit_to_app</v-icon>
 </v-btn>
 </v-toolbar>
-<v-navigation-drawer v-model='drawer' flat app class='grey'>
+<v-navigation-drawer v-model='drawer' flat app class='blue lighten-3'>
 <v-list>
 <v-list-tile v-for='link in links' :key='link.text' router :to="link.route">
 <v-list-tile-action>
